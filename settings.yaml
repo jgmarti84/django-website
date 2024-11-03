@@ -1,0 +1,9 @@
+default:
+  postgres_db:
+    host: "localhost"
+    port: "5432"
+    database: "django_website"
+
+devcontainer:
+  postgres_db:
+    host: "host.docker.internal"
